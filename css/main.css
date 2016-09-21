@@ -235,6 +235,19 @@
   margin-bottom: 30px;
   border-bottom: solid 1px #ceb9b4;
 }
+.contact p{
+  text-align: center;
+}
+.contact a{
+  color: #fff;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+}
+.contact a:hover{
+  cursor: pointer;
+  color: #6a402b;
+}
 @media screen and (max-width: 970px), screen and (max-device-width:  970px) {
   .about-img img{
     width: 60%;
