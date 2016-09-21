@@ -152,11 +152,94 @@
 .quo-img img{
   width: 100%;
 }
+.leadership{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background: #D87E67;
+  padding: 20px 80px;
+  color: #fff;
+  font-family: 'Abril Fatface', serif;
+}
+.leadership h1, .cocur h1{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.leadership h2, .cocur h2{
+  font-size: 2.5em;
+  margin-top: 30px;
+  text-align: center;
+}
+.leadership h3, .cocur h3{
+  font-size: 1.4em;
+  margin-top: 0px;
+  text-align: center;
+}
+.leadership h4, .cocur h4{
+  font-size: 1.1em;
+  font-style: italic;
+  text-align: center;
+}
+.leadership-content{
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: solid 1px #ceb9b4;
+}
+.leadership-content p{
+  text-align: justify;
+}
+.cocur{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background: #D2DFDB;
+  padding: 20px 80px;
+  color: #1A1A1A;
+  font-family: 'Abril Fatface', serif;
+}
+.cocur-content{
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: solid 1px #bdcbc7;
+}
+.s2s{
+  min-height: 50vh;
+  display: table;
+}
+.why-hire{
+  background: #fff;
+  padding: 20px 40px;
+  color: #1A1A1A;
+  display: table;
+  height: 50vh;
+}
+.s2s-content, .why-hire-content{
+  display: table-cell;
+  vertical-align: middle;
+}
+.contact{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background: #D87E67;
+  padding: 20px 80px;
+  color: #fff;
+  font-family: 'Abril Fatface', serif;
+}
+.contact h1{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: solid 1px #ceb9b4;
+}
 @media screen and (max-width: 970px), screen and (max-device-width:  970px) {
   .about-img img{
     width: 60%;
   }
-  .experience, .more{
+  .experience, .more, .leadership, .cocur{
     padding: 20px 40px;
   }
 
