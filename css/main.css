@@ -70,7 +70,7 @@
   font-size: 2em;
 }
 .about p{
-  font-family: serif;
+
 }
 .about-container {
   padding-right: 0;
@@ -141,6 +141,9 @@
 }
 .more h1{
   text-align: center;
+  margin: 30px auto 20px;
+  padding-top: 20px;
+  border-top: solid 1px #aaa;
 }
 .quo-img{
   padding: 0px 20px;
