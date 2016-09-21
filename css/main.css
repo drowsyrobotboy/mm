@@ -91,15 +91,51 @@
   width: 100%;
   height: 100vh;
   max-width: 100%;
-  background: #f4f4f4;
-  text-align: justify;
-  padding: 20px 40px;
-  color: #1A1A1A;
+  background: #EDEBE0;
+  padding: 20px 80px;
+  color: #4c4b42;
   font-family: 'Abril Fatface', serif;
 }
+.experience h1{
+  font-size: 3em;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.experience h2{
+  font-size: 2.5em;
+  margin-top: 30px;
+  text-align: center;
+}
+.experience h3{
+  font-size: 2em;
+  margin-top: 0px;
+  text-align: center;
+}
+.experience h4{
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+.tamu, .hsbc{
+  margin-top: 60px;
+}
 
-@media screen and (max-width: 900px), screen and (max-device-width:  900px) {
+.exp-img{
+  text-align: center;
+}
+
+.exp-img img{
+  width: 100%;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 970px), screen and (max-device-width:  970px) {
   .about-img img{
     width: 60%;
   }
+  .experience{
+    padding: 20px 40px;
+  }
+
 }
