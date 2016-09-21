@@ -15,7 +15,7 @@ $(window).on("load", function(){
       setTimeout(function(){
         $('#manish').css({'right':'80%', 'opacity':'1'});
         $('#maryada').css({'left':'80%', 'opacity':'1'});
-        $('.intro-text').css({'background':'rgba(244,244,244,1)'});
+        $('.intro-text').css({'background':'rgba(210,223,219,1)'});
       }, 1000);
     }
   }
@@ -35,13 +35,13 @@ $(window).on("resize", function(){
       $('.intro-text').css({'font-size':'4em'});
         $('#manish').css({'right':'90%', 'opacity':'1'});
         $('#maryada').css({'left':'90%', 'opacity':'1'});
-        $('.intro-text').css({'background':'rgba(244,244,244,0)'});
+        $('.intro-text').css({'background':'rgba(210,223,219,0)'});
     }
     else{
       $('.intro-text').css({'font-size':'4em'});
         $('#manish').css({'right':'80%', 'opacity':'1'});
         $('#maryada').css({'left':'80%', 'opacity':'1'});
-        $('.intro-text').css({'background':'rgba(244,244,244,1)'});
+        $('.intro-text').css({'background':'rgba(210,223,219,1)'});
     }
   }
   else{
