@@ -17,7 +17,26 @@
     <![endif]-->
 </head>
 <body>
+  <div id="menu">
+    <ul>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#quo">Quotients</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#cocur">Co-Curriculars</a></li>
+      <li><a href="#s2s">Stem to Stocks</a></li>
+      <li><a href="#why-hire">Why Hire Me?</a></li>
+      <li><a href="#contact">Contact Details</a></li>
+    </ul>
+  </div>
+  <div id="main">
   <div class="intro" id="intro">
+    <div class="hamburger">
+        <a><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+    </div>
     <div class="intro-img">
       <img src="images/intro.png">
     </div>
@@ -109,18 +128,23 @@
     <div class="container-fluid more-container">
       <div class="row">
         <div class="col-md-6">
-          <h1 style="border-top: none">My Cool Quotients</h1>
+          <h1 style="border-top: none" id="quo">My Cool Quotients</h1>
           <div class="quo-img">
             <img src="images/quo.png">
           </div>
         </div>
         <div class="col-md-6">
-          <h1>Awards and Honors</h1>
+          <h1 id="awards">Awards and Honors</h1>
           <ul>
-            <li>Honored by Indian Institute of Welding, Hyderabad</li>
-            <li>Won many academic excellence awards</li>
+            <li>Honored by Indian Institute of Welding,Hyderabad </li>
+            <li>Student Convener of ISTE 2014-15</li>
+            <li>Academic Excellence awards</li>
+            <li>2nd prize in Horlicks creative writing competition</li>
+            <li>Winner of Zapak Gaming Leage</li>
+            <li>Winner of B-Plan, a business event organized by MGIT, Hyderabad</li>
+            <li>Won many prizes for presentations</li>
           </ul>
-          <h1>Certifications &amp; Trainings </h1>
+          <h1 id="certifications">Certifications &amp; Trainings </h1>
           <ul>
             <li>Bloomberg Essentials,</li>
             <li>Business writing skills from HSBC</li>
@@ -209,8 +233,22 @@
       </div>
     </div>
   </div>
+  </div>
   <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
   <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/slideout.min.js" type="text/javascript"></script>
+  <script>
+  var slideout = new Slideout({
+    'panel': document.getElementById('main'),
+    'menu': document.getElementById('menu'),
+    'padding': 256,
+    'tolerance': 40,
+    'side': 'right'
+  });
+  document.querySelector('.hamburger a').addEventListener('click', function() {
+        slideout.toggle();
+      });
+  </script>
   <script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>

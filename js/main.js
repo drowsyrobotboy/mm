@@ -50,3 +50,9 @@ $(window).on("resize", function(){
     $('#maryada').css({'left':'80%', 'opacity':'1'});
   }
 });
+
+$(window).on("hashchange", function(){
+  if(slideout.isOpen()){
+    slideout.close();
+  }
+});
