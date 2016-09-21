@@ -1,4 +1,5 @@
 $(window).on("load", function(){
+  //$('#loader').hide();
   //mobile
   if($(window).width()<1049){
     if($(window).width()>499){

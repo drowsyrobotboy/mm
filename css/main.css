@@ -322,6 +322,65 @@ h1#awards{
   cursor: pointer;
 }
 
+/*== Loader ==*/
+#loader{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 3001;
+  width: 100%;
+  height: 100%;
+  background: #D2DFDB;
+  color: #1A1A1A;
+  display: table;
+}
+#load-img{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 3em;
+}
+.gly-spin {
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+  -o-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
 /*== Resp CSS ==*/
 
 @media screen and (max-width: 970px), screen and (max-device-width:  970px) {
