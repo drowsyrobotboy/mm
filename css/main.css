@@ -54,7 +54,6 @@
   position: relative;
   display: table;
   width: 100%;
-  height: 100vh;
   max-width: 100%;
   background: #fff;
   text-align: justify;
@@ -80,16 +79,16 @@
 .about-img{
   padding: 0;
   text-align: right;
+  margin-bottom: -40px;
+  margin-top: 40px;
 }
 .about-img img{
-  position: absolute;
   width: 100%;
   right:0;
 }
 .experience{
   position: relative;
   width: 100%;
-  height: 100vh;
   max-width: 100%;
   background: #EDEBE0;
   padding: 20px 80px;
@@ -108,17 +107,19 @@
   text-align: center;
 }
 .experience h3{
-  font-size: 2em;
+  font-size: 1.4em;
   margin-top: 0px;
   text-align: center;
 }
 .experience h4{
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-style: italic;
   text-align: center;
 }
-.tamu, .hsbc{
-  margin-top: 60px;
+.tamu, .hsbc, .walmore, .zippr, .jag{
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: solid 1px #bdbba7;
 }
 
 .exp-img{
