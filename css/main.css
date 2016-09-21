@@ -334,5 +334,7 @@ h1#awards{
   h1#awards{
     border-top: solid 1px #aaa;
   }
-
+  .quo-img{
+    padding: 0px 0px;
+  }
 }
