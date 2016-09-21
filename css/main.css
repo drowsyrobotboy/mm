@@ -130,12 +130,30 @@
   width: 100%;
   max-width: 200px;
 }
-
+.more{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background: #f4f4f4;
+  padding: 20px 80px;
+  color: #1A1A1A;
+  font-family: 'Abril Fatface', serif;
+}
+.more h1{
+  text-align: center;
+}
+.quo-img{
+  padding: 0px 20px;
+  text-align: center;
+}
+.quo-img img{
+  width: 100%;
+}
 @media screen and (max-width: 970px), screen and (max-device-width:  970px) {
   .about-img img{
     width: 60%;
   }
-  .experience{
+  .experience, .more{
     padding: 20px 40px;
   }
 
